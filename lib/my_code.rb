@@ -41,7 +41,7 @@ i = 0
 starting_point
 sum = starting_point
 while i < source_array.length do
-  sum = source_array[i] + sum
+  sum += source_array[i]
   i += 1
 end
 return sum 
