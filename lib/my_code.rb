@@ -43,7 +43,7 @@ while i < source_array.length do
   sum = source_array[i] + sum
   i += 1
 end
-
+return sum 
 end 
 
 def reduce_to_all_true(source_array)
