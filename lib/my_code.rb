@@ -30,5 +30,8 @@ array = []
 i = 0 
 while i < source_array.length do
   current_index = source_array[i]
-  array << source_array[i] ^^ 2 
+  array << source_array[i] ** 2
+  i += 1
+end
+array
 end 
