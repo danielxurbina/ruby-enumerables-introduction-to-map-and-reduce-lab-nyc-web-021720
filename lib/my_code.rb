@@ -41,7 +41,9 @@ i = 0
 sum = starting_point
 while i < source_array.length do
   sum = source_array[i] + sum
-  
+  i += 1
+end
+
 end 
 
 def reduce_to_all_true(source_array)
